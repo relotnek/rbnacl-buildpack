@@ -10,7 +10,7 @@ class LanguagePack::Ruby < LanguagePack::Base
   extend LanguagePack::BundlerLockfile
 
   BUILDPACK_VERSION   = "v61"
-  LIBSODIUM_VERSION   = "0.4.1"
+  LIBSODIUM_VERSION   = "0.4.3"
   LIBYAML_VERSION     = "0.1.4"
   LIBYAML_PATH        = "libyaml-#{LIBYAML_VERSION}"
   BUNDLER_VERSION     = "1.3.2"
